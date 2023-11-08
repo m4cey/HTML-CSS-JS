@@ -1,17 +1,17 @@
 html {
-  height: 100%;
-  width: 100%;
-  background: #222;
+  height: 100vh;
+  width: 100vw;
+  background: #faa;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 img {
   display: block;
-  width: 50%;
-  height: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50%;
-  margin-bottom: 50%;
+  margin: 0 auto;
+  width: 30%;
+  height: 30%;
   animation: rotate 2s infinite linear;
 }
 
